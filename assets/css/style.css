@@ -1,0 +1,239 @@
+/*Style for index.html*/ 
+
+
+header{
+        height: 88px;
+    }
+                #name{
+                width: 150px;
+        background-color: #17a4b7;
+        text-align: center;
+        float:left;
+        margin-left: 175px;
+        margin-top:25px;
+    }
+    #p_name{
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        margin: 20px;
+    }
+    #menu{
+                float:right;
+        margin-right: 175px;
+        margin-top: 45px;
+    }
+    #menu a{
+                color: gray;
+        text-decoration: none;
+        padding-right: 13px;
+        padding-left: 10px;
+        font-size:18px; 
+    }
+    #abt, #pf{
+                 border-right: 2px solid gray;
+    }
+    #foot p{
+                color: white;
+    }
+    #sect1{
+                width: 100%;
+                height: 520px;
+        background-color: #e6e5cf;
+        display: inline-block;
+        border-top: 1px solid gray;
+        border-bottom: 7px solid #17a4b7;
+    }
+    #prt_1{
+                margin-left: 175px;
+                background-color: white;
+                margin-top: 37px;
+                height: 450px;
+                width: 575px;
+                float: left;
+    }
+    #prt_2{
+                margin-right: 175px;
+                margin-left: 25px;
+                height: 225px;
+                width: 425px;
+                background-color: white;
+                float: right;
+                margin-top: 37px;
+ 
+    }
+    #sect2{
+                width:100%;
+        height: 70px;
+        background-color: black;
+        display: inline-block;
+        margin-top: -4px;
+    }
+    #sect2 p{
+                color: white;
+                text-align: center;
+                padding: 11px;
+    }
+    h1,h3{
+                color:#17a4b7;
+                margin-left: 25px;
+                border-bottom: 3px solid #e6e5cf;
+                margin-right:25px;
+                padding-bottom: 13px;
+    }
+    img{
+                width: 200px;
+                height: 200px;
+                margin-left: 25px;
+                float: left;
+                margin-right:25px;
+    }
+    #random_text, #random_text1{
+                margin-right:25px;
+                margin-left: 25px;
+                line-height: 25px;
+                color: gray;
+    }
+    #git{
+        width: 100px;
+        height: 100px;
+        display: block;
+        float: left;
+        margin-top: 10px;
+    }
+    #linkedin{
+        width: 100px;
+        height: 100px;
+        display: inline-block;
+        float: left;
+        margin-left: -1px;
+        margin-top: 10px;
+    }
+    #gmail{
+        width: 115px;
+        height: 115px;
+        display: inline-block;
+        float: left;
+        margin-left: -6px;
+    }
+
+
+    /*Stylesheet for contact file*/
+    #form_name,#form_email,#form_msg{
+        text-align: left;
+        color: gray;
+        margin-left: 25px;
+    }
+    #frm_name, #frm_email,#frm_msg{
+        margin-left: 25px;
+        margin-right: 25px;
+        width: 90%;
+    }
+    #form_submit{
+        margin-left: 25px;
+        margin-top: 10px;
+        height: 30px;
+        width: 75px;
+        background-color: #17a4b7;
+        border: none;
+        color: white;
+        font-weight: bold;
+    }
+
+
+/*Style sheet for portfolio.html*/
+
+    #img1,#img4{
+        float: left;
+        margin-left: 25px;
+        height: 155px;
+        width: 155px;
+        margin-top: 40px;
+    }
+
+    #img2,#img3,#img5,#img6{
+        float: left;
+        margin-left: 5px;
+        height: 155px;
+        width: 155px;
+        margin-top: 40px;
+    }
+
+    #div_img1,#div_img2,#div_img3,#div_img4,#div_img5,#div_img6{
+        position: relative;
+    }
+
+    #p_img1{
+        position:absolute;
+        width:155px;
+        height:30px;
+        background-color: black;
+        color: white;
+        left: 25px;
+        top:122px;
+        text-align:center;
+        padding-top: 7px;
+    }
+
+    #p_img2{
+        position:absolute;
+        width:155px;
+        height:30px;
+        background-color: black;
+        color: white;
+        left: 210px;
+        top:122px;
+        text-align:center;
+        padding-top: 7px;
+    }
+
+    #p_img3{
+        position:absolute;
+        width:155px;
+        height:30px;
+        background-color: black;
+        color: white;
+        left: 395px;
+        top:122px;
+        text-align:center;
+        padding-top: 7px;
+    }
+
+    #p_img4{
+        position:absolute;
+        width:155px;
+        height:30px;
+        background-color: black;
+        color: white;
+        left: 25px;
+        top:318px;
+        text-align:center;
+        padding-top: 7px;
+    }
+
+    #p_img5{
+        position:absolute;
+        width:155px;
+        height:30px;
+        background-color: black;
+        color: white;
+        left: 210px;
+        top:318px;
+        text-align:center;
+        padding-top: 7px;
+    }
+
+    #p_img6{
+        position:absolute;
+        width:155px;
+        height:30px;
+        background-color: black;
+        color: white;
+        left: 395px;
+        top:318px;
+        text-align:center;
+        padding-top: 7px;
+    }
+
+
+
