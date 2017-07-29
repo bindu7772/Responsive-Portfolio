@@ -235,5 +235,111 @@ header{
         padding-top: 7px;
     }
 
+/*Media query for 980px*/
+
+@media only screen and (max-width: 980px)
+{
+    #prt_1{
+        margin-left: 55px;
+        height: auto;
+        width:500px;
+    }
+
+    #prt_1 img{
+        height: 155px;
+        width: 155px;
+    }
+
+    #prt_2{
+        margin-right: 75px;
+        width: auto;
+        
+    }
+
+    #git{
+        width: 70px;
+        height: 70px;
+        margin-top: 10px;
+        margin-right: 15px;
+        margin-left: 20px;
+    }
+
+    #linkedin{
+        height: 70px;
+        width: 70px;
+        margin-right: 15px;
+    }
+
+    #gmail{
+        width: 80px;
+        height: 80px;
+    }
+}
+
+/* Media query for 768px */
+
+@media only screen and (max-width: 768px)
+{
+    #name{
+        margin-left: 75px;
+    }
+
+    #menu{
+        margin-right: 80px;
+    }
+
+    #sect1{
+        height: auto;
+    }
+
+    #prt_1{
+        margin-left: 70px;
+        width: 590px;
+    }
+
+    #prt_2{
+        width: 80%;
+        margin-bottom: 30px;
+    }
+}
+
+/* Media query for 640px */
+
+@media only screen and (max-width: 640px)
+{
+
+    #name{
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    #menu{
+        margin-right: 0px;
+        width: 100%;
+        margin-top: 25px;
+        margin-bottom:25px;
+    }
+
+    #menu a{
+        padding-right: 52.5px;
+        padding-left: 52.5px;
+        font-size: 30px;
+    }
+
+    #prt_1{
+        width: 460px;
+    }
+
+    #prt_2{
+        width: 76%;
+    }
+
+    
+    #prt_1 img{
+        height: 305px;
+        width: 408px;
+    }
+}
+
 
 
